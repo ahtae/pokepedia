@@ -1,0 +1,70 @@
+@import '~bootstrap/scss/bootstrap';
+@import '../../styles/utils/colors';
+@import '../../styles/utils/mixins';
+@import '../../styles/utils/breakpoints';
+
+.pokemonsContainer {
+  @include centerByRow;
+  flex-wrap: wrap;
+
+  &__pokemonContainer {
+    width: 40%;
+    margin: 10px;
+
+    @media only screen and (max-width: $mobile) {
+      width: 80%;
+    }
+
+    &__pokemon {
+      background-color: white;
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+      overflow: hidden;
+      margin-bottom: 15px;
+      margin-top: 15px;
+
+      &--removeUnderline {
+        &:hover {
+          text-decoration: none
+        }
+      }
+
+      &__nameContainer {
+        &__name {
+          text-align: center;
+          padding: 20px;
+          text-transform: uppercase;
+          font-weight: bold;
+          color: white;
+          letter-spacing: 4px;
+          text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.4);
+          background-color: $primary;
+
+          @media only screen and (max-width: $tablet) {
+            padding: 10px;
+          }
+        }
+      }
+
+      &__imageContainer {
+        @include centerByRow;
+        padding: 20px;
+
+        &__image {
+          width: 330px;
+          height: 330px;
+
+          @media only screen and (max-width: $tablet) {
+            width: 200px;
+            height: 200px;
+          }
+
+          @media only screen and (max-width: $mobile) {
+            width: 100px;
+            height: 100px;
+          }
+        }
+      }
+    }
+  }
+}
