@@ -1,5 +1,5 @@
-import Pokemons from './Pokemons';
-import SinglePokemon from './SinglePokemon';
+import Pokemons from './pokemons/Pokemons';
+import SinglePokemon from './singlePokemon/SinglePokemon';
 
 export { Pokemons };
 export { SinglePokemon };
