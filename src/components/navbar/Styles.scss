@@ -1,0 +1,15 @@
+.navbarContainer {
+  margin-bottom: 120px;
+
+  &__navbar {
+    color: white;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+
+    &__logo {
+      width: 20px;
+      margin-right: 10px;
+    }
+  }
+}
