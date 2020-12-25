@@ -1,3 +1,5 @@
+@import '../../styles/utils/mixins';
+
 .searchBarContainer {
   display: flex;
   align-items: flex-start;
@@ -11,21 +13,7 @@
 
     &__button {
       &--removeUnderline {
-        &:hover {
-          outline: none;
-        }
-
-        &:focus {
-          outline: none;
-        }
-
-        &:active {
-          outline: none;
-        }
-
-        &:visited {
-          outline: none;
-        }
+        @include removeButtonUnderline;
       }
     }
 
