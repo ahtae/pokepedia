@@ -4,9 +4,11 @@ import './Styles.scss';
 
 const GoBackButton = () => {
   return (
-    <Link to="/pokemons">
-      <button className="goBackButton">Go Back</button>
-    </Link>
+    <div className="goBackButtonContainer">
+      <Link to="/pokemons">
+        <button className="goBackButtonContainer__goBackButton">Go Back</button>
+      </Link>
+    </div>
   );
 };
 

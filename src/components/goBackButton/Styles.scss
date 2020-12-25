@@ -1,4 +1,11 @@
-.goBackButton {
-  margin-top: 20px;
-  margin-bottom: 20px;
+@import '../../styles/utils/mixins';
+
+.goBackButtonContainer {
+  text-align: center;
+
+  &__goBackButton {
+    @include removeButtonUnderline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
