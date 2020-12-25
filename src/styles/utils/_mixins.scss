@@ -16,3 +16,48 @@
     border-radius: 0.25rem;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
+
+@mixin subheader {
+    background-color: lightgray;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+@mixin removeLinkUnderline {
+    &:hover {
+        text-decoration: none;
+    }
+
+    &:focus {
+        text-decoration: none;
+    }
+
+    &:active {
+        text-decoration: none;
+    }
+
+    &:visited {
+        text-decoration: none;
+    }
+}
+
+@mixin removeButtonUnderline {
+    &:hover {
+        outline: none;
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    &:active {
+        outline: none;
+    }
+
+    &:visited {
+        outline: none;
+    }
+}
