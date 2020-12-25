@@ -75,9 +75,13 @@ const Pokemons = () => {
     }
   }, [search]);
 
-  const allPokemons = filteredPokemons.map((pokemon, i) => (
-    <Pokemon key={pokemon.id} pokemon={pokemon} />
-  ));
+  const allPokemons = filteredPokemons.length ? (
+    filteredPokemons.map((pokemon) => (
+      <Pokemon key={pokemon.id} pokemon={pokemon} />
+    ))
+  ) : (
+    <p className="pokemonsContainer__paragraph">No matches found!</p>
+  );
 
   if (loading) {
     return <Loading />;
@@ -97,7 +101,7 @@ const Pokemons = () => {
         handlePossibleWordClick={handlePossibleWordClick}
         possibleWords={possibleWords}
       />
-      <div className="pokemonsContainer">{pokemons && allPokemons}</div>
+      <div className="pokemonsContainer">{allPokemons}</div>
     </div>
   );
 };
