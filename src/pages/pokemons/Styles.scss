@@ -6,6 +6,12 @@
   @include centerByRow;
   flex-wrap: wrap;
 
+  &__paragraph {
+    margin: 10px;
+    color: $primary;
+    font-weight: bold;
+  }
+
   &__pokemonContainer {
     width: 40%;
     margin: 10px;
