@@ -26,10 +26,7 @@ const SearchBar = ({
             className="searchBarContainer__searchBar__button--removeUnderline"
             disabled={!search}
           >
-            <SearchIcon
-              onClick={handleSearchClick}
-              className="searchBarContainer__searchBar__button--removeUnderline"
-            />
+            <SearchIcon onClick={handleSearchClick} />
           </button>
         </div>
         <div className="searchBarContainer__autocompleteContainer">
