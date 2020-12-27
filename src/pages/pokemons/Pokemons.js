@@ -79,9 +79,9 @@ const Pokemons = () => {
     filteredPokemons.map((pokemon) => (
       <Pokemon key={pokemon.id} pokemon={pokemon} />
     ))
-  ) : (
+  ) : filteredPokemons.length && !loading ? (
     <p className="pokemonsContainer__paragraph">No matches found!</p>
-  );
+  ) : null;
 
   if (loading) {
     return <Loading />;
