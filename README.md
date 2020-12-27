@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# pokepedia
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+pokepedia is a single page application that provides information about various species of Pokémon by using [GraphQL Pokémon](https://github.com/lucasbento/graphql-pokemon).
 
-## Available Scripts
+<img src="./screenshots/pokepedia.gif" width="900" height="500" alt="pokepedia demo" />
 
-In the project directory, you can run:
+## Features
+- Responsive on tablet, mobile, and desktop devices.
+- Provides a search bar to search for a specific pokemon.
+- Provides lookup autocompletion.
+- Provides profile and evolution about a specific pokemon (when clicked).
 
-### `npm start`
+### Desktop View
+<img src="./screenshots/desktop.png" width="900" height="500" alt="pokepedia desktop view" />
+<img src="./screenshots/autocomplete.png" width="600" height="300" alt="pokepedia autocompletion" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Tablet View
+<img src="./screenshots/tablet.png" width="500" height="500" alt="pokepedia tablet view" />
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Mobile View
+<img src="./screenshots/mobile.png" width="250" height="300" alt="pokepedia mobile view" />
 
-### `npm test`
+### Single Pokemon View
+<img src="./screenshots/singlePokemon.png" width="300" height="300" alt="single pokemon view" />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- You have installed the latest version of [Node.js and NPM](https://nodejs.org/en/).
+- You have a Windows/Linux/Mac machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installing and using
 
-### `npm run eject`
+To get acclimated, follow the steps below:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Fork and clone this repository.
+2. Open a terminal and run npm install and then npm run start.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Built With
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* [npm](https://www.npmjs.com/) - The package manager used to manage the various dependencies.
+* [React](https://reactjs.org/) - The JavaScript library used for building the user interface.
+* [Material UI](https://material-ui.com/) - The framework used to design the user interface.
+* [React-Router](https://reacttraining.com/react-router/) - The standard routing library for React that allows navigation without refreshing the page.
+* [Sass](https://sass-lang.com/) - The stylesheet language compiled to CSS used for styling the application.
+* [GraphQL](https://graphql.org/) - The query language used to communicate with the Pokémon API.
+* [GraphQL Pokémon](https://github.com/lucasbento/graphql-pokemon) - The Pokémon API used.
+* [ESlint](https://eslint.org/) - The tool used to maintain code quality.
+* [Prettier](https://prettier.io/) - The tool used to format code.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Versioning
 
-## Learn More
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/ahtae/pokepedia/tags).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Authors
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* **Kristy Li** - *Initial work* - [ahtae](https://github.com/ahtae)
 
-### Code Splitting
+See also the list of [contributors](https://github.com/ahtae/pokepedia/graphs/contributors) who participated in this project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/ahtae/pokepedia/blob/master/LICENSE) file for details.
