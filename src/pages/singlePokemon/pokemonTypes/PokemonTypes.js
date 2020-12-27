@@ -1,4 +1,3 @@
-import { useQuery } from '@apollo/react-hooks';
 import React from 'react';
 import PokemonType from './pokemonType/PokemonType';
 import Row from 'react-bootstrap/Row';
