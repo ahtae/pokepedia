@@ -10,17 +10,19 @@ pokepedia is a single page application that provides information about various s
 - Provides lookup autocompletion.
 - Provides profile and evolution about a specific pokemon (when clicked).
 
-### Desktop View
+### Desktop
 <img src="./screenshots/desktop.png" width="900" height="500" alt="pokepedia desktop view" />
-<img src="./screenshots/autocomplete.png" width="600" height="300" alt="pokepedia autocompletion" />
 
-### Tablet View
+### Tablet
 <img src="./screenshots/tablet.png" width="500" height="500" alt="pokepedia tablet view" />
 
-### Mobile View
+### Mobile
 <img src="./screenshots/mobile.png" width="250" height="300" alt="pokepedia mobile view" />
 
-### Single Pokemon View
+### Autocompletion
+<img src="./screenshots/autocomplete.png" width="600" height="300" alt="pokepedia autocompletion" />
+
+### Single Pokemon
 <img src="./screenshots/singlePokemon.png" width="300" height="300" alt="single pokemon view" />
 
 ## Getting Started
