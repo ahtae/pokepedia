@@ -2,6 +2,8 @@
 
 pokepedia is a single page application that provides information about various species of Pokémon by using [GraphQL Pokémon](https://github.com/lucasbento/graphql-pokemon).
 
+[Click here to go to the deployed application](https://mighty-citadel-92742.herokuapp.com/)
+
 <img src="./screenshots/pokepedia.gif" width="900" height="500" alt="pokepedia demo" />
 
 ## Features
