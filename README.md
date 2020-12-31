@@ -1,6 +1,6 @@
 # pokepedia
 
-pokepedia is a single page application that provides information about various species of Pokémon by using [GraphQL Pokémon](https://github.com/lucasbento/graphql-pokemon).
+pokepedia is a single page application that provides information about various species of Pokémon by using [GraphQL Pokémon](https://github.com/lucasbento/graphql-pokemon). It was built using Apollo, GraphQL, React, Material UI, and React Bootstrap.
 
 [Click here to go to the deployed application](https://mighty-citadel-92742.herokuapp.com/)
 
